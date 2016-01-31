@@ -163,8 +163,17 @@ we need to add a function `exports.questionId` for render a specific question to
 2. Also had to add a new route in `routes\index.js` to the function `exports.questionId`
 
   `router.get('/quizes/questions/:index', quizController.questionId);`
+## Responsive design
+- so that the app is responsive, we have created 3 design perspectives en the directory `public/stylesheets`.
+  `tablet.css`
+  `wide.css`
+  `smartphone.css`
+- according to the device and the screen size a different style is used to adapt the design to the connected device.
+- therefore we have changed new stylesheets links layout.ejs file
 
-
+  `<link rel='stylesheet' type='text/css' href='/stylesheets/wide.css' />`
+  `<link rel='stylesheet' type='text/css' media='only screen and (min-width: 600px) and (max-width: 1000px)' href='/stylesheets/tablet.css'>`
+  `<link rel='stylesheet' type='text/css' media='only screen and (max-width: 600px)' href='/stylesheets/smartphone.css'>`
 
 ## Links :
 * **[iaas Deployment](http://10.6.128.187:8084)**
