@@ -6,33 +6,41 @@ Siguiendo las instrucciones en el Módulo VI: El proyecto Quiz y MVC construya p
 
 #### HTTP
 
-https://github.com/SYTW/miriada-upm-dsnh5jsnode/#m%C3%B3dulo-iv-http
+  https://github.com/SYTW/miriada-upm-dsnh5jsnode/#m%C3%B3dulo-iv-http
 
 #### Transparencias de "HTTP" (Módulo IV) Archivo
 
-https://campusvirtual.ull.es/1516/mod/resource/view.php?id=101216
+  https://campusvirtual.ull.es/1516/mod/resource/view.php?id=101216
 
 #### Repositorio de Introducción a Express
 
-https://github.com/SYTW/hello-express
+  https://github.com/SYTW/hello-express
 
 ### STW-7
 #### Video tutorial "El proyecto Quiz y MVC"
-https://campusvirtual.ull.es/1516/mod/url/view.php?id=105044
+
+  https://campusvirtual.ull.es/1516/mod/url/view.php?id=105044
 
 #### PDF document : "El Proyecto Quiz y MVC"
-https://campusvirtual.ull.es/1516/pluginfile.php/161441/mod_resource/content/3/transp_modulo6.pdf
 
-### Material STW-8
+  https://campusvirtual.ull.es/1516/pluginfile.php/161441/mod_resource/content/3/transp_modulo6.pdf
 
+### STW-8
 #### El proyecto Quiz y MVC URL
-https://github.com/crguezl/miriada-upm-dsnh5jsnode#m%C3%B3dulo-vi-el-proyecto-quiz-y-mvc
+
+  https://github.com/crguezl/miriada-upm-dsnh5jsnode#m%C3%B3dulo-vi-el-proyecto-quiz-y-mvc
 
 #### Repositorio con el Proyecto Quiz. Generación, Favicon, Layouts, Controladores, Modelos URL
-https://github.com/SYTW/basic-quiz
+
+  https://github.com/SYTW/basic-quiz
 
 #### Repositorio con el Proyecto Quiz. Adaptativo con ORM Sequelize. Modelo simple URL
-https://github.com/SYTW/quiz-sequelize
+
+  https://github.com/SYTW/quiz-sequelize
+
+#### Curso MOOC: Node.JS. Quiz 6. Despliegue en Heroku
+
+  https://www.youtube.com/watch?v=pHrxmgE1-eM&feature=youtu.be
 
 ## Commands & Utilities
 #### express generator instalation
@@ -174,6 +182,50 @@ we need to add a function `exports.questionId` for render a specific question to
   `<link rel='stylesheet' type='text/css' href='/stylesheets/wide.css' />`
   `<link rel='stylesheet' type='text/css' media='only screen and (min-width: 600px) and (max-width: 1000px)' href='/stylesheets/tablet.css'>`
   `<link rel='stylesheet' type='text/css' media='only screen and (max-width: 600px)' href='/stylesheets/smartphone.css'>`
+
+## Heroku
+
+#### node-js-getting-started
+
+A barebones Node.js app using [Express 4](http://expressjs.com/).
+
+This application supports the [Getting Started with Node on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) article - check it out.
+
+#### Running Locally
+
+Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
+
+```sh
+$ git clone git@github.com:heroku/node-js-getting-started.git # or clone your own fork
+$ cd node-js-getting-started
+$ npm install
+$ npm start
+```
+
+Your app should now be running on [localhost:5000](http://localhost:5000/).
+
+#### Deploying to Heroku
+
+```
+$ heroku create
+$ git push heroku master
+$ heroku open
+```
+or
+
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
+#### Heroku Documentation
+
+For more information about using Node.js on Heroku, see these Dev Center articles:
+
+- [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
+- [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
+- [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
+- [Best Practices for Node.js Development](https://devcenter.heroku.com/articles/node-best-practices)
+- [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
+
+
 
 ## Links :
 * **[iaas Deployment](http://10.6.128.187:8084)**
