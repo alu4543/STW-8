@@ -1,0 +1,19 @@
+body {
+  background: #333;
+}
+
+#page-wrap:after {
+  content: "Smartphone Layout";
+}
+
+h2 span, section h3 {
+  display: none; /* Para que no los muestre */
+}
+
+body {
+  font-size: xx-large; /* Letra extra larga */
+}
+
+footer, input {
+  font-size: large;
+}

@@ -1,0 +1,28 @@
+body {
+  background: #999;
+}
+
+#page-wrap:after { /* Introduce contenido after page-wrap */
+  content: "Tablet Layout";
+}
+
+nav {
+  float: left; /* Flotante, para que el contenido sea vertical al reducir su anchura */
+  width: 15%;
+  height: 200px;
+}
+
+nav span {
+  margin: 0px 100px 0px 0px; /* 100px para que haga un salto de línea */
+}
+
+section {
+  float: right;
+  width: 80%;
+  height: 200px;
+}
+
+footer {
+  clear: both;
+  display: block; /* Para que se expanda */
+}
