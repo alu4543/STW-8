@@ -1,0 +1,15 @@
+<h3>Lista de Preguntas</h3>
+
+  <!--
+  <% for (var i in list){ %>
+    <li>
+      <a href="/quizes/questions/<%= i %>"><%- list[i].pregunta %></a>
+    </li>
+  <% } %>
+  -->
+
+  <ol>
+    <% for(var i = 0; i < list.length; i++){ %>
+      <li> <a href="/quizes/questions/<%= i+1 %>"><%- list[i].pregunta %></a></li>
+    <% } %>
+  </ol>
