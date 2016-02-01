@@ -171,6 +171,7 @@ we need to add a function `exports.questionId` for render a specific question to
 2. Also had to add a new route in `routes\index.js` to the function `exports.questionId`
 
   `router.get('/quizes/questions/:index', quizController.questionId);`
+
 ## Responsive design
 - so that the app is responsive, we have created 3 design perspectives en the directory `public/stylesheets`.
   `tablet.css`
@@ -228,6 +229,7 @@ For more information about using Node.js on Heroku, see these Dev Center article
 
 
 ## Links :
-* **[iaas Deployment](http://10.6.128.187:8084)**
+* **[iaas Deployment](http://10.6.128.187:8085)**
+* **[Heroku Deployment](https://quiz-2085.herokuapp.com)**
 * **[GitHub](https://github.com/alu4543/STW-8)**
 * **[web de la asignatura](http://alu4543.github.io/)**
