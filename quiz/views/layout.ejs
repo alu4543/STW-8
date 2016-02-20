@@ -1,40 +1,274 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8"><title> Preguntas </title>
-  <link rel='stylesheet' type='text/css' href='/stylesheets/wide.css' />
-  <link rel='stylesheet'
-        type='text/css'
-        media='only screen and (min-width: 600px) and (max-width: 1000px)'
-        href='/stylesheets/tablet.css'>
-  <link rel='stylesheet'
-        type='text/css'
-        media='only screen and (max-width: 600px)'
-        href='/stylesheets/smartphone.css'>
-</head>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//ES" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es-AU">
+
+	<head>
+
+		<title>misPracticasPortal</title>
+		<script src="script.js" type="text/javascript"></script>
+		<meta name="Author" content="Mohammed Mahrach">
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<meta http-equiv="content-type" content="text/application/xhtml; charset=UTF-8" />
+		<meta content="text/html; charset=utf-8" http-equiv=Content-Type>
+	  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+		<link href="stylesheets/font-awesome.css" rel="stylesheet" />
+		<link href="stylesheets/styles.css" rel="stylesheet">
+		<link href="stylesheets/style.css" rel="stylesheet">
+		<link href="stylesheets/modify.css" rel="stylesheet">
+		<link href="stylesheets/demo.css" rel="stylesheet">
+		<link href="stylesheets/offCanvasMenu.css" rel="stylesheet">
+		<link href="stylesheets/bootstrap-social.css" rel="stylesheet" >
+
+    <link rel='stylesheet' type='text/css' href='/stylesheets/wide.css' />
+    <link rel='stylesheet'
+          type='text/css'
+          media='only screen and (min-width: 600px) and (max-width: 1000px)'
+          href='/stylesheets/tablet.css'>
+    <link rel='stylesheet'
+          type='text/css'
+          media='only screen and (max-width: 600px)'
+          href='/stylesheets/smartphone.css'>
+
+	</head>
 
 <body>
-<div id="page-wrap">
-  <header class="main" id="h1">
-    <h2>Quiz: el juego de las preguntas</h2>
-  </header>
+  <div class="wrapper">
+    <div class="box">
+      <div class="row row-offcanvas row-offcanvas-left">
+        <!-- main right col -->
+        <div class="column col-sm-12 col-xs-12" id="main">
+          <!-- top nav -->
 
-  <nav class="main" id="n1" role="navigation">
-    <span><a href="/">Home</a></span> |
-    <span><a href="/quizes/question">Preguntas aleatorias</a></span> |
-    <span><a href="/quizes/questions">Lista de Preguntas</a></span>
-  </nav>
 
-  <section class="main" id="s1">
-    <div>
-      <%- body %>
+          <div class="navbar navbar-blue navbar-static-top">
+              <div class="navbar-header">
+
+
+              <button class="navbar-toggle btn-lg" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="glyphicon glyphicon-tasks"></span>
+              </button>
+
+              </div>
+
+              <nav class="collapse navbar-collapse" role="navigation">
+                <!-- /right top nav -->
+                <ul class="nav navbar-nav navbar-right">
+									<li>
+										<a class="btn btn-social-icon btn-google btn-lg" href="https://plus.google.com/u/1/111850325496856725084/posts"><span class="fa fa-google-plus"></span></a>
+									</li>
+									<li>
+										<a class="btn btn-social-icon btn-github btn-lg" href="http://github.com/alu4543"><span class="fa fa-github"></span></a>
+									</li>
+									<li>
+										<a class="btn btn-social-icon btn-linkedin btn-lg" href="https://www.linkedin.com/in/mohammed-mahrach-02b04b89"><span class="fa fa-linkedin"></span></a>
+									</li>
+
+                	<li class="divider-vertical"></li>
+                </ul>
+
+                <!-- /end right top nav -->
+
+                <!-- /left top nav -->
+
+                <ul class="nav navbar-nav">
+
+										<li>
+	                    <a href="http://alu4543.github.io/"><i class="glyphicon glyphicon-home"></i> Home</a>
+	                  </li>
+
+										<li class="divider-vertical"></li>
+
+										<li>
+	                    <a href="#"><i class="glyphicon glyphicon-question-sign"></i> About</a>
+	                  </li>
+
+                </ul>
+
+                <!-- /end left top nav -->
+
+              </nav>
+
+          </div>
+          <!-- /top nav -->
+
+					<div id="ocm-page-wrapper">
+						<div class="padding">
+							<div class="full col-sm-9">
+								<!-- content -->
+								<div class="row">
+									<!-- col-left -->
+                  <!-- left -->
+                  <div class="col-sm-3">
+
+                      <nav class="ocm-main-menu">
+
+                        <h1>misPracticasPortal</h1>
+
+                        			<p class="sub">En este sitio encontrarás una guía breve de algunos lenguajes de programación con algunos ejercicios útiles.</p>
+
+															<ul>
+
+																<li>
+																	<a class="btn btn-block btn-social btn-reddit" href="#" data-toggle="collapse" data-target="#userMenu">
+																		<span class="glyphicon glyphicon-globe"></span> SISTEMAS Y TECNOLOGÍAS WEB
+																	</a><br>
+																		<ul class="nav nav-stacked collapse" id="userMenu">
+																			<h4>PRÁCTICAS</h4>
+
+																			<li><a href="http://alu4543.github.io/"><i class="glyphicon glyphicon-check"></i> SWT-1: Tareas Iniciales</a></li>
+																			<li><a href="http://alu4543.github.io/STW-2"><i class="glyphicon glyphicon-check"></i> SWT-2: Mocha/Chai/Gulp</a></li>
+																			<li><a href="http://alu4543.github.io/STW-3"><i class="glyphicon glyphicon-check"></i> SWT-3: Sinon/Blanket</a></li>
+																			<li><a href="http://alu4543.github.io/STW-4"><i class="glyphicon glyphicon-check"></i> SWT-4: Karma/Travis/WebWorkers</a></li>
+																			<li><a href="http://alu4543.github.io/STW-5"><i class="glyphicon glyphicon-check"></i> SWT-5: despliegue en iaas.ull.es</a></li>
+																			<li><a href="http://alu4543.github.io/STW-6/"><i class="glyphicon glyphicon-check"></i> SWT-6: ExpressJS: client/server</a></li>
+																			<li><a href="http://alu4543.github.io/STW-7/"><i class="glyphicon glyphicon-check"></i> SWT-7: Quiz: Layouts/Controls/Model</a></li>
+																			<li><a href="http://alu4543.github.io/STW-8/"><i class="glyphicon glyphicon-check"></i> SWT-8: responsiveDesign/Heroku</a></li>
+																			<li><a href="http://alu4543.github.io/STW-9/"><i class="glyphicon glyphicon-check"></i> SWT-9: Preguntas Simple/Múltiple</a></li>
+
+																			<h4>CUESTIONÁRIOS</h4>
+
+																			<li><a href="#"><i class="glyphicon glyphicon-check"></i> Git</a></li>
+																			<li><a href="#"><i class="glyphicon glyphicon-check"></i> Emmet, JSON y Clausuras</a></li>
+																			<li><a href="#"><i class="glyphicon glyphicon-check"></i> JavaScript en W3Schools</a></li>
+																			<li><a href="#"><i class="glyphicon glyphicon-check"></i> Preguntas de HTTP y REST</a></li>
+																			<li><a href="#"><i class="glyphicon glyphicon-check"></i> Preguntas de Express</a></li>
+																		</ul>
+																</li>
+
+																<li>
+
+																	<a class="btn btn-block btn-social btn-reddit" href="#" data-toggle="collapse" data-target="#menu2">
+																		<span class="glyphicon glyphicon-hdd"></span> PROCESADORES DE LENGUAJES
+																	</a><br>
+
+																		<ul class="nav nav-stacked collapse" id="menu2">
+
+																			<h4>PRÁCTICAS</h4>
+
+																			<li><a href="http://alu4543.github.io/tareas-iniciales-alu4543"><i class="glyphicon glyphicon-check"></i> SWT-1: Tareas Iniciales</a></li>
+																			<li><a href="#"><i class="glyphicon glyphicon-check"></i> comming soon..</a></li>
+
+																			<h4>CUESTIONÁRIOS</h4>
+
+																			<li><a href="#"><i class="glyphicon glyphicon-check"></i> comming soon..</a></li>
+
+																		</ul>
+																</li>
+
+																<li>
+																	<a class="btn btn-block btn-social btn-reddit" href="#" data-toggle="collapse" data-target="#menu3">
+																		<span class="glyphicon glyphicon-briefcase"></span> DESARROLLO DE SISTEMAS INFORMÁTICOS
+																	</a><br>
+
+																		<ul class="nav nav-stacked collapse" id="menu3">
+
+																			<h4>PRÁCTICAS</h4>
+
+																			<li><a href="http://alu4543.github.io/tareas-iniciales-mateam/"><i class="glyphicon glyphicon-check"></i> SWT-1: Tareas Iniciales</a></li>
+																			<li><a href="#"><i class="glyphicon glyphicon-check"></i> comming soon..</a></li>
+
+																			<h4>CUESTIONÁRIOS</h4>
+
+																			<li><a href="#"><i class="glyphicon glyphicon-check"></i> comming soon..</a></li>
+																		</ul>
+																</li>
+
+																<li>
+																	<a class="btn btn-block btn-social btn-reddit" href="#" data-toggle="collapse" data-target="#menu4">
+																		<span class="glyphicon glyphicon-adjust"></span> OTRAS
+																	</a><br>
+
+																		<ul class="nav nav-stacked collapse" id="menu4">
+
+																			<h4>PRÁCTICAS</h4>
+
+																			<li><a href="#"><i class="glyphicon glyphicon-check"></i> comming soon..</a></li>
+
+																			<h4>CUESTIONÁRIOS</h4>
+
+																			<li><a href="#"><i class="glyphicon glyphicon-check"></i> comming soon..</a></li>
+																		</ul>
+																</li>
+															</ul>
+
+                      </nav>
+
+                    </div>
+                  <!-- main col left -->
+
+									<!-- End col-left -->
+
+									<!-- main -->
+ 									<div class="col-sm-6 col6">
+
+                    <nav class="main" id="n1" role="navigation">
+                      <span><a href="/">Home</a></span> |
+                      <span><a href="/quizes/question">Preguntas aleatorias</a></span> |
+                      <span><a href="/quizes/questions">Lista de Preguntas</a></span>
+                    </nav>
+
+                    <section class="main" id="s1">
+                      <div>
+                        <%- body %>
+                      </div>
+                    </section>
+
+									</div>
+									<!-- main col right -->
+									<div class="col-sm-3">
+
+										<div class="panel panel-default">
+											<div class="panel-heading"> <h4>Acerca del autor</h4></div>
+											<div class="panel-body">
+												<p><img src="asserts/images/foto.png" class="img-circle pull-right"> <a href="#">Mahrach Mahrach, Mohammed</a></p>
+												<div class="clearfix"></div>
+												<hr>
+												Estudiante en Grado en Ingeniería Informática - Universidad de La Laguna,..
+												<hr>
+												<a class="btn btn-block btn-social btn-github" href="https://plus.google.com/u/1/111850325496856725084/posts">
+													<span class="fa fa-github"></span> Sígueme en GitHub
+												</a>
+												<a class="btn btn-block btn-social btn-google" href="http://github.com/alu4543">
+													<span class="fa fa-google-plus"></span> Sígueme en Google +
+												</a>
+
+												<a class="btn btn-block btn-social btn-linkedin" href="https://www.linkedin.com/in/mohammed-mahrach-02b04b89">
+													<span class="fa fa-linkedin"></span> Sígueme en LinkedIn
+												</a>
+											</div>
+
+										</div>
+
+									</div> <!-- /col-sm-3 -->
+								</div><!--/row-->
+							</div><!-- full col-sm-9 -->
+						</div><!-- /padding -->
+					</div><!-- /ocm-page-wrapper -->
+          <!--close header div's modal-->
+          </div>
+        </div>
+      </div>
     </div>
-  </section>
 
-  <footer class="main" id="f1">
-    <a href="http://es.wikipedia.org/wiki/Quiz"> ¿Que es un Quiz? </a>
-  </footer>
+    <footer class="main" id="f1">
+      <a href="http://es.wikipedia.org/wiki/Quiz"> ¿Que es un Quiz? </a>
 
-</div>
+      <!-- script references -->
+  		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+  		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+  		<script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.2/js/bootstrap.min.js"></script>
+  		<script src="js/modify.js"></script>
+  		<script src="js/script.js"></script>
+
+  		<script type="text/javascript" src="/js/jquery.offCanvasMenu-0.1.js"></script>
+
+    </footer>
+
 </body>
 </html>
